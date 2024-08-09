@@ -1,0 +1,13 @@
+.container,
+.loader_container {
+  height: calc(100vh - var(--header-title) - var(--padding-container) * 2);
+  overflow: auto;
+  padding: var(--padding-container);
+}
+
+.loader_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
